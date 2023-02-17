@@ -1,5 +1,5 @@
 const fs = require('fs');
-const { errorLogger } = require('/home/juan/Backend/desafio-15/loggerConfig.js');
+const { errorLogger } = require('/home/juan/desafio-railway/loggerConfig.js');
 
 class Messages {
   constructor(fileName) {
