@@ -1,5 +1,5 @@
 const fs = require('fs');
-const { errorLogger } = require('/home/juan/desafio-railway/loggerConfig.js');
+const { errorLogger } = require('../loggerConfig');
 
 class Products {
   constructor(filename) {
