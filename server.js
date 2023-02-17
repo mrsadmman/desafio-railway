@@ -1,7 +1,7 @@
 const express = require('express');
 const session = require('express-session');
 const config = require('./config/config');
-const { warnLogger } = require('./loggerConfig');
+const { errorLogger, warnLogger } = require('./loggerConfig');
 const compression = require('compression');
 
 console.log(`NODE_ENV=${config.NODE_ENV}`);
