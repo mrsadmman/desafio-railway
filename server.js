@@ -31,8 +31,9 @@ client
   .connect()
   .then(() => console.log('\x1b[32m', 'Connected to REDIS ✅'))
   .catch((e) => {
-    console.error(e);
-    throw 'can not connect to Redis! ❌';
+    return errorLogger.log('error', {
+      mensaje: `No se pudo conectar a redis`,
+    });
   });
 const RedisStore = require('connect-redis')(session);
 
