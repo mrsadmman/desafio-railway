@@ -1,0 +1,26 @@
+[
+   {
+      "id": 1,
+      "nombre": "Vodka",
+      "precio": 50,
+      "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_659260-MLA31352532052_072019-O.webp"
+   },
+   {
+      "id": 2,
+      "nombre": "Fernet",
+      "precio": 200,
+      "thumbnail": "https://almacenfamily.com/productos/fernet-branca-750.png"
+   },
+   {
+      "id": 3,
+      "nombre": "Whisky",
+      "precio": 500,
+      "thumbnail": "https://vinotecamasis.com.ar/wp-content/uploads/2021/11/Whisky-Johnnie-Walker-Double-Black-750-ml.png"
+   },
+   {
+      "nombre": "vermu",
+      "precio": "5000",
+      "thumbnail": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/211/660/products/carpano-rosso1-6ca90f5dbbcac7e2d516063940943439-640-0.webp",
+      "id": 4
+   }
+]

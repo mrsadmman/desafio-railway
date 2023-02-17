@@ -1,0 +1,60 @@
+.input-msg-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  
+  }
+  
+  .chat-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    animation: fadeInUp 1s;
+  
+  }
+  
+  .chat-area {
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    width: 100%;
+    margin: 10px;
+    height: 300px;
+    overflow: auto;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+  }
+  
+  .avatar {
+    width: 30px;
+    border-radius: 50px;
+  }
+  
+  .avatarUrl {
+    font-size: 10px;
+  }
+  
+  .p-email {
+    color: #666666;
+    margin: 1px;
+    margin-left: 10px;
+    font-family: monospace;
+    font-weight: bold;
+  }
+  
+  .p-email span {
+    color: black;
+    font-family: monospace;
+  }
+  
+  .msj-container {
+    background-color: rgba(255, 255, 255, 0.281);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    max-width: max-content;
+    display: flex;
+    flex-direction: row;
+  }
+  

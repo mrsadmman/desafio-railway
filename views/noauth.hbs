@@ -1,0 +1,15 @@
+<div class='container d-flex flex-direction-column flex-wrap justify-content-center'>
+
+<p id="username" >Error de autorización!</p>
+<img src="/public/img/denied.png" class="arrow" alt="success!">
+<h2>401 Unauthorized</h2>
+
+</div>
+<script>
+    const timer = () => {
+  setTimeout(() => {
+    document.location.href = '/login'
+  }, 2000);
+    }
+    timer()
+</script>
